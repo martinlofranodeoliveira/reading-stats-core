@@ -1,0 +1,14 @@
+{
+  "name": "reading-stats-core",
+  "version": "0.1.0",
+  "description": "Reading statistics: words, characters, sentences, paragraphs, reading/speaking time. Zero runtime dependencies.",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test tests/stats.test.js",
+    "demo": "node bin/stats.mjs --assert"
+  }
+}
